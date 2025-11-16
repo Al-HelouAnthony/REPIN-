@@ -40,7 +40,13 @@ body {
     margin-bottom: 25px;
     font-size: 16px;
 }
-
+.init-startup{
+    width: 30%; /* You can change this size */
+    height: 15%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px rgba(17, 152, 210, 0.9);
+}
 /* Input Fields (Age, Weight, Height, Goals) */
 .attribute {
     margin: 10px 0; /* Vertical margin only */
@@ -65,7 +71,7 @@ body {
 
 /* Buttons */
 .button1 {
-    margin-top: 20px;
+    margin-top: 50px;
     width: 100%;
     max-width: 300px;
     height: 55px; /* Slightly reduced height */
@@ -79,6 +85,7 @@ body {
     transition: background-image 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
     cursor: pointer;
     font-weight: 600;
+
     
 
 }
@@ -376,7 +383,8 @@ body.dashboard-active {
 
 /* --- NEW STYLES FOR WORKOUT LIST --- */
 
-#workout-plan-container {
+#workout-plan-container-1,
+#workout-plan-container-2 {
     max-height: 400px; /* Set a max height */
     overflow-y: auto; /* Add a scrollbar if it gets too long */
     padding-right: 10px; /* Space for the scrollbar */
